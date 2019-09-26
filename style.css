@@ -1,0 +1,202 @@
+*{
+    border: red solid 1px}
+}
+body{
+    background-image: url("bulldog.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: scroll;
+    background-color: #F0ECEE;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* navBar */
+/* a.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    ;
+}
+h3:nth-of-type(1){
+    display: flex;
+    margin-top: 20%
+    color: black;
+
+}
+h3.blackAdopt{
+    color: black;
+}
+h3.redMe{
+    color: #FF4850; */
+
+}
+.navbar {
+    display: flex;
+    flex-direction: collumn;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* margin-left: 30%; */
+    /* justify-content: space-around; */
+}
+.logo{
+    padding-left: 15px;
+    /* padding: 50px */
+    
+    /* padding-left: 15px; */
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.list{
+    display: flex;
+    flex-direction: row
+    align-items: center;
+
+    
+}
+
+
+
+a {
+    color: #88898B;
+}
+a:hover{
+    background: #F0ECEE;
+    color: #FF4850;
+}
+button.linkbutton{
+    color: #F0ECEE;
+    background: #FF4850;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+button.linkbutton:hover{
+    background: #CCC;
+    color: #FF4850;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+aside.h1{ 
+    display: flex;
+    flex-grow:3;
+    font-weight: 600px;
+}
+
+
+
+/* .navBar > ul{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+} */
+/* .logo{
+    display: flex;
+    flex-grow: 1; 
+    flex-basis: auto;
+} */
+/* .link{
+    display: flex;
+} */
+/* .linkbutton{
+    display: flex;
+} */
+/* .link  .linkbutton{
+    display: flex;
+    margin-right: 5px;
+} */
+
+@media (min-width: 768px){
+    .navBar{
+        flex-wrap: wrap;
+    }
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    /* color: 88898B; */
+}
+
+
+
+
+
+
+
+/* body {
+    background-color: #F0ECEE;
+    background-image: url("bulldog.jpg");
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav"
+    "banner banner"
+    "img p"
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.banner {
+    grid-area: banner;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sunset-banner.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+
+
+.button {
+    background-color: #FF4850;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+a {
+    color: #88898B;
+}
+
+h4 {
+    color: #88898B;
+}
+
+.navbar {
+    display: flex;
+}
+.logo{
+    flex: 1;
+}
+li{
+    flex: 2;
+}
+navBar
+logo
+banner
+button
+
+.navBar {
+    display: flex;
+}  */
