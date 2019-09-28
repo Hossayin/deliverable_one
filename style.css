@@ -1,14 +1,15 @@
 *{
-    border: red solid 1px}
+    border: red solid 1px
 }
-body{
+
+/* body{
     background-image: url("bulldog.jpg");
     background-repeat: no-repeat;
     position: relative;
     background-attachment: scroll;
     background-color: #F0ECEE;
     font-family: 'Fira Sans', sans-serif;
-}
+} */
 
 /* navBar */
 /* a.logo{
@@ -29,17 +30,40 @@ h3.blackAdopt{
 h3.redMe{
     color: #FF4850; */
 
-}
+/* } */
 .navbar {
     display: flex;
+    /* justify-content: space-between */
+    
     flex-direction: collumn;
+    
+    justify-content: flex-end;
+    align-content: center;
     /* flex-wrap: wrap; */
     /* justify-content: space-around; */
     /* margin-left: 30%; */
     /* justify-content: space-around; */
 }
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    a
+    
+    
+    /* justify-content: flex-end; */
+}
+.prt{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
 .logo{
-    padding-left: 15px;
+    display: flex;
+    flex: 1;
+    padding-right: 200px
+    /* padding-left: 15px; */
+    
     /* padding: 50px */
     
     /* padding-left: 15px; */
@@ -47,12 +71,16 @@ h3.redMe{
 
 .menu{
     display: flex;
-    justify-content: flex-end;
+    justify-content: collumn;
+    /* align-items: baseline */
+    
 }
 .list{
     display: flex;
-    flex-direction: row
-    align-items: center;
+    
+    /* justify-content: space-between */
+    /* flex-direction: row */
+    /* align-items: center; */
 
     
 }
@@ -60,7 +88,9 @@ h3.redMe{
 
 
 a {
+    display: flex;
     color: #88898B;
+
 }
 a:hover{
     background: #F0ECEE;
@@ -114,7 +144,7 @@ aside.h1{
     margin-right: 5px;
 } */
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
     .navBar{
         flex-wrap: wrap;
     }
@@ -125,7 +155,7 @@ ul {
 a {
     text-decoration: none;
     /* color: 88898B; */
-}
+} */
 
 
 
