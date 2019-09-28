@@ -1,11 +1,8 @@
-*{
-    border: red solid 1px
-}
-
 body{
     background-image: url("bulldog.jpg");
     background-repeat: no-repeat;
-    position: relative;
+    background-position: relative;
+    background-size: cover;
     background-attachment: scroll;
     background-color: #F0ECEE;
     font-family: 'Fira Sans', sans-serif;
@@ -35,29 +32,63 @@ h3.redMe{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    border: black solid 1px;
 }
 .nav {
     display: flex;
-    /* justify-content: space-between */
-    
-    /* flex-direction: row; */
-    
-    /* justify-content: flex-end; */
+    justify-content: space-between;
     align-items: center;
     height: 70px;
     flex-wrap: wrap;
     background-color: #F0ECEE;
     color: #88898B;
-    /* justify-content: space-around; */
-    /* margin-left: 30%; */
-    /* justify-content: space-around; */
 }
+ul li {
+    desplay: flex;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+}
+
+.content{
+    flex:1
+    display: flex;
+    flex-direction: column;
+    width:550px;
+    justify-content: left;
+    margin-top:300px;
+    margin-right: 1000px
+}
+
+
+.line{
+    flex:1
+    width: 550px;
+    margin-top: 20px;
+    margin-right: 1000px
+}
+
+.howbutton{
+    flex:1
+    width: 1000px;
+    display: flex;
+    padding-right: 500px
+}
+
+
+
 .nav-title{
     /* display: flex; */
     /* flex: 1;
     padding-right: 200px */
     background-color: #F0ECEE;
-    width: 30%;
     padding: 10px 10px 10px 10px;
     text-align: left;
     /* padding-left: 15px; */
@@ -74,16 +105,13 @@ h3.redMe{
 .meR{
     color: #FF4850;
 }
-
-.nav-menu{
-    /* display: flex; */
-    width: 70%;
-    
-    /* justify-content: space-between */
-    /* flex-direction: row */
-    /* align-items: center; */
-
-    
+.navButton{
+    padding: 10px;
+    color: #F0ECEE;
+    background-color: #FF4850;
+    border-radius: 4px;
+    height: 35px;
+    font-size: 16px;
 }
 
 .nav-menu ul {
@@ -92,16 +120,19 @@ h3.redMe{
 }
 
 .nav-menu ul li {
+    display: flex;
     padding: 10px 10px;
     list-style-type: none;
     color: #88898B;
-    
+    align-items: center;
 }
 .nav-menu ul li:hover{
     color: #FF4850;
 
 
 }
+
+
 
 a{
     text-decoration: none;
@@ -135,6 +166,8 @@ a:hover{
 
     }
 }
+
+
 
 
 /* .list {
