@@ -6,13 +6,14 @@ body {
   background-attachment: scroll;
   background-color: #f0ecee;
   font-family: "Fira Sans", sans-serif;
+  margin: 10px 50px;
 }
 
 * {
   padding: 0px;
   margin: 0px;
-  /* border: black solid 1px; */
 }
+/* NavBar */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -26,43 +27,12 @@ ul li {
   desplay: flex;
   align-items: center;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 90vh;
-  max-width: 550px;
-}
-
-.content {
-  font-size: 28px;
-  font-weight: 600;
-  max-width: 450px;
-}
-
-.content span {
-  color: #ff4850;
-}
-
-.line {
-  font-size: 20px;
-  color: #88898b;
-}
-
-.howButton {
-  background-color: #ff4850;
-  color: #f0ecee;
-  align-self: flex-start;
-  padding: 10px 10px;
-  border-radius: 4px;
-  font-size: 22px;
-}
-
 .nav-title {
   background-color: #f0ecee;
   padding: 10px 10px 10px 10px;
   text-align: left;
+  font-size: 22px;
+  text-emphasis: none;
 }
 
 .adoptB {
@@ -76,11 +46,15 @@ ul li {
   padding: 10px;
   color: #f0ecee;
   background-color: #ff4850;
-  border-radius: 4px;
-  height: 35px;
-  font-size: 16px;
+  border-radius: 6px;
+  height: 50px;
+  font-size: 20px;
 }
-
+.navButton:hover {
+  color: #ff4850;
+  background: #ccc;
+  font-weight: 600;
+}
 .nav-menu ul {
   display: flex;
   justify-content: flex-end;
@@ -95,17 +69,59 @@ ul li {
 }
 .nav-menu ul li:hover {
   color: #ff4850;
+  font-weight: 300;
 }
-
 a {
   text-decoration: none;
   color: #88898b;
+  font-size: 18px;
 }
 
 a:hover {
   background: #f0ecee;
   color: #ff4850;
   font-weight: 300;
+}
+/* body */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  max-width: 550px;
+}
+
+.content {
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 550px;
+  font-weight: 400;
+}
+
+.content span {
+  color: #ff4850;
+}
+
+.line {
+  font-size: 20px;
+  color: #88898b;
+  padding-top: 20px;
+}
+
+.howButton {
+  background-color: #ff4850;
+  color: #f0ecee;
+  align-self: flex-start;
+  padding: 15px 60px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 170px;
+  margin-top: 40px;
+}
+.howButton:hover {
+  color: #ff4850;
+  background: #ccc;
 }
 
 @media only screen and (max-width: 768px) {
